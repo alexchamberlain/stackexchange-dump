@@ -12,5 +12,8 @@ First, install [Py-StackExchange][1], then it is as simple as
 
     $ pandoc 11881795.html -o 11881795.epub
 
+**NOTE**: stackexchange-dump.py is not an official product of, and is not affiliated in any way, with Stack Overflow Internet Services, Inc.
+
+
   [1]: https://github.com/lucjon/Py-StackExchange
   [2]: http://johnmacfarlane.net/pandoc/
