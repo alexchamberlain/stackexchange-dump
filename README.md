@@ -6,3 +6,5 @@ A simple script to dump the contents of a Stack Exchange question.
 First, install [Py-StackExchange][1], then it is as simple as
 
     $ python2 stackexchange-dump.py 11881795
+
+  [1]: https://github.com/lucjon/Py-StackExchange
