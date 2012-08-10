@@ -18,8 +18,8 @@ answer   = site.answer(question.accepted_answer_id)
 answerer = site.user(answer.owner_id)
 
 print '<h1>%s</h1>' % question.title
-print '<a href="%s">%s</a>' % (question.url, question.url)
-print 'Asked by <a href="%s">%s</a> on StackOverflow.com' % (owner.url, owner.display_name)
+print '<p><a href="%s">%s</a><br />' % (question.url, question.url)
+print 'Asked by <a href="%s">%s</a> on StackOverflow.com</p>' % (owner.url, owner.display_name)
 print question.body
 print '<h2>Accepted Answer</h2>'
 print 'Answered by <a href="%s">%s</a>' % (answerer.url, answerer.display_name)
