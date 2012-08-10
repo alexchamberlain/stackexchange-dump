@@ -1,3 +1,6 @@
+# Copyright (c) Alex Chamberlain 2012
+# Licensed under MIT license
+
 import sys
 import stackexchange
 
