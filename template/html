@@ -5,10 +5,10 @@
       <a href="{{question.link}}">{{question.link}}</a><br />
       Asked by <a href="{{question.owner.link}}">{{question.owner.display_name}}</a> on StackOverflow.com
     </p>
-    {{question.body}}
+    {{{question.body}}}
     <h2>Accepted Answer</h2>
     <p>Answered by <a href="{{answer.owner.link}}">{{answer.owner.display_name}}</a></p>
-    {{answer.body}}
+    {{{answer.body}}}
     <p>Reproduced under the Creative Commons Attribution-ShareAlike 3.0 Unported license.</p><p>Reproduced under the Creative Commons Attribution-ShareAlike 3.0 Unported license.</p>
   </body>
 </html>
