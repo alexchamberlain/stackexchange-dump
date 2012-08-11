@@ -5,4 +5,8 @@
     <owner href="{{question.owner.link}}">{{question.owner.display_name}}</owner>
     {{question.body}}
   </question>
+  <answer>
+    <owner href="{{answer.owner.link}}">{{answer.owner.display_name}}</owner>
+    {{answer.body}}
+  </answer>
 </article>
