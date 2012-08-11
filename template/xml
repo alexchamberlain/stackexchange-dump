@@ -1,0 +1,8 @@
+<?xml version='1.0'?>
+<article>
+  <question>
+    <title>{{question.title}}</title>
+    <owner href="{{question.owner.link}}">{{question.owner.display_name}}</owner>
+    {{question.body}}
+  </question>
+</article>
